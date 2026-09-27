@@ -1,0 +1,46 @@
+pvpvisuals/
+├── .github/
+│   └── workflows/
+│       └── build.yml
+├── build.gradle
+├── settings.gradle
+├── gradle.properties
+├── gradlew
+├── gradlew.bat
+├── gradle/
+│   └── wrapper/
+│       └── gradle-wrapper.properties
+└── src/
+    └── main/
+        ├── java/
+        │   └── com/
+        │       └── example/
+        │           └── pvpvisuals/
+        │               ├── PvPVisualsClient.java
+        │               ├── PvPVisualsMod.java
+        │               ├── config/
+        │               │   └── ModConfig.java
+        │               ├── feature/
+        │               │   ├── CustomHitboxes.java
+        │               │   ├── CustomHats.java
+        │               │   ├── CustomParticles.java
+        │               │   ├── CustomBlockOutline.java
+        │               │   ├── CustomHands.java
+        │               │   ├── CustomTrails.java
+        │               │   └── AutoMaceAttack.java
+        │               ├── command/
+        │               │   └── KitCommand.java
+        │               ├── gui/
+        │               │   └── PvPMenuScreen.java
+        │               └── mixin/
+        │                   └── PlayerEntityRendererMixin.java
+        └── resources/
+            ├── fabric.mod.json
+            ├── pvpvisuals.mixins.json
+            └── assets/
+                └── pvpvisuals/
+                    ├── lang/
+                    │   └── en_us.json
+                    └── textures/
+                        └── models/
+                            └──
